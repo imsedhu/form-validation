@@ -15,7 +15,7 @@ body {
 
 form {
   width: 350px;
-  margin: 20vh auto 10vh auto;
+  margin: 20vh auto 0 auto;
   background-color: whitesmoke;
   border-radius: 10px;
   padding: 30px;
@@ -43,13 +43,13 @@ h2 {
   margin-bottom: 10px;
 }
 
-form input {
+.group input {
   border: 1px solid rgb(161, 161, 11);
   border-radius: 8px;
   padding-left: 10px;
 }
 
-form input:focus {
+.group input:focus {
   outline: 0;
 }
 
